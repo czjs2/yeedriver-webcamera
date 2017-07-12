@@ -1,0 +1,27 @@
+{
+  "name": "yeedriver-webcamera",
+  "version": "1.0.0",
+  "description": "yeedriver-webcamera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czjs2/yeedriver-webcamera.git"
+  },
+  "keywords": [
+    "yeedriver",
+    "webcamera"
+  ],
+  "author": "fx",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/czjs2/yeedriver-webcamera/issues"
+  },
+  "homepage": "https://github.com/czjs2/yeedriver-webcamera#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "yeedriver-base": "^1.0.0"
+  }
+}
