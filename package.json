@@ -1,6 +1,6 @@
 {
   "name": "yeedriver-webcamera",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "yeedriver-webcamera",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,6 @@
   "homepage": "https://github.com/czjs2/yeedriver-webcamera#readme",
   "dependencies": {
     "lodash": "^4.17.4",
-    "yeedriver-base": "^1.0.0"
+    "yeedriver-base": "^1.0.10"
   }
 }

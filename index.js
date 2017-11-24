@@ -110,10 +110,9 @@ WCamera.prototype.setInOrEx = function(option){
 
 WCamera.prototype.EpsInit = function(deviceId, regInfos,devSpecOpts) {
     WorkerBase.prototype.EpsInit.call(this,deviceId,regInfos,devSpecOpts);
-    var devId = devSpecOpts && devSpecOpts.uniqueId;
-    if(this.devices[devId] && devSpecOpts && devSpecOpts.param){
+    if(this.devices[deviceId] && devSpecOpts && devSpecOpts.param){
 
-        this.devices[devId].setOpt(devSpecOpts.param);
+        this.devices[deviceId].setOpt(devSpecOpts.param);
     }
 
 };
